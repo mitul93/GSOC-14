@@ -1,9 +1,11 @@
 ###Google Summer of Code - 2014
+------------------------------------
 
 This repo contains my proposal for GNU Radio project **"Vector Network Analyzer"** for google summer of code 2014.
 
 
 ###Files and Directories
+---------------------------------------
 
 * **gr-exp_average/**
 
@@ -18,6 +20,7 @@ This repo contains my proposal for GNU Radio project **"Vector Network Analyzer"
   GSOC 14 proposal for VNA project in .pdf format
   
 ### GNU Radio OOT module - *gr-exp_average*
+---------------------------------------------
 
 This module performs **exponential averaging** on the input data of type **float**.
 
@@ -29,6 +32,12 @@ To use this OOT, open the terminal and do the following:
 6. make
 7. make test
 8. make install or sudo make install
+9. cd ../examples
+10. ./expavg_stock.py
+
+After successful execution of all steps, you'll get plot like this. For more details of examples read [README](https://github.com/mitul93/GSOC-14/tree/master/gr-exp_average/examples) file in examples folder
+  
+![alt tag](https://github.com/mitul93/GSOC-14/blob/master/gr-exp_average/examples/expavg_stock.png?raw=true)
 
 ###Any doubt related to proposal?
 
