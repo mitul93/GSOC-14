@@ -22,7 +22,14 @@ This repo contains my proposal for GNU Radio project **"Vector Network Analyzer"
 ### GNU Radio OOT module - *gr-exp_average*
 ---------------------------------------------
 
-This module performs **exponential averaging** on the input data of type **float**.
+#####Introduction
+
+Exponential averaging is a part of VNA signal processing blocks. It is helpful to improve dynamic range of VNA. For more details and explanation refer agilent [white paper](http://cp.literature.agilent.com/litweb/pdf/5980-2778EN.pdf)
+This module performs exponential averaging on the input data of type **float**.
+
+Runtime argument **alpha** also known as **smoothning factor** is calculated using formula: 
+
+**2/(N+1)** where N is no of days for which averaging is done.
 
 To use this OOT, open the terminal and do the following:
 
