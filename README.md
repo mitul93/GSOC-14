@@ -24,9 +24,7 @@ This module performs **exponential averaging** on the input data of type **float
 To use this OOT, open the terminal and do the following:
 
 1. git clone https://github.com/mitul93/GSOC-14
-2. cd gr-exp_average
-3. mkdir build
-4. cd build
+2. cd GSOC-14/gr-exp_average/build
 5. cmake ../
 6. make
 7. make test
