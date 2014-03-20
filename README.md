@@ -30,7 +30,7 @@ To use this OOT, open the terminal and do the following:
 5. cmake ../
 6. make
 7. make test
-8. make install
+8. make install or sudo make install
 
 ###Any doubt related to proposal?
 
